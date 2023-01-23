@@ -1,0 +1,7 @@
+com\myPower24\loggerVRouter\entity\LvRouterResponse.class
+com\myPower24\loggerVRouter\LifecycleListener.class
+com\myPower24\loggerVRouter\resources\LvLoadBalResource.class
+com\myPower24\loggerVRouter\resources\CustomServerErrorException.class
+com\myPower24\loggerVRouter\entity\LwsConnDesc.class
+com\myPower24\loggerVRouter\loggerConn\LoggerConnController.class
+com\myPower24\loggerVRouter\JakartaRestConfiguration.class
