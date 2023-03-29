@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN" "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+ <jdbc-connection-pool is-isolation-level-guaranteed="false" datasource-classname="com.mysql.cj.jdbc.MysqlXADataSource" 
+                       name="mysql_ibexbg_rootPool" res-type="javax.sql.XADataSource">
+      <property name="password" value="qiklam"></property>
+      <property name="databaseName" value="ibexbg"></property>
+      <property name="serverName" value="localhost"></property>
+      <property name="user" value="root"></property>
+      <property name="useSSL" value="false"></property>
+      <property name="port" value="3306"></property>
+    </jdbc-connection-pool>
+    <jdbc-resource enabled="true" jndi-name="java:app/ibexbg" object-type="user" pool-name="mysql_ibexbg_rootPool"/>
+</resources>
